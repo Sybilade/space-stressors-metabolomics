@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environments & Conda environments
+# NEVER commit these folder binaries to GitHub!
+.conda/
+conda-env/
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Local datasets
+# Ignore all files inside data directories except the .gitkeep placeholder files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE settings
+.vscode/
+.idea/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# System files
+Thumbs.db
+.DS_Store

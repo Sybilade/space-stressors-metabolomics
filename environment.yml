@@ -1,0 +1,16 @@
+name: project-template-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip
+  - pip:
+    # Add any pip-specific dependencies here (e.g., streamlit)
+    - streamlit
